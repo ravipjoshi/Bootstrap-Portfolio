@@ -10,52 +10,58 @@
     <title>Bootstrap-Portfolio</title>
 </head>
 <body>
-    <header id="masthead">
-        <div class="container">
-                   
-                        <h1 id="logo">Ravi Joshi</h1> 
-                
-                 
-                        <nav>
-                            <a href="index.html">About</a>
-                            <a href="portfolio.html">Portfolio</a>
-                            <a href="contact.html">Contact</a>
-                        </nav>
-                    
-            
-        </div>
-    </header>
-    
-    <div class="container" id="main-container">
-                   
-        <section class="main-section">
-         
-                    <h1>Contact</h1>
-
-                    <form id="contact-form">
-                      <ul>
-                        <li>
-                          <label for="name">Name</label>
-                          <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+    <nav class="navbar navbar-expand-lg fixed-top ">  
+        <div class="container-fluid">         
+           <div class="row col-lg-12 col-md-12 col-sm-12"> 
+             <div class="col-lg-4 col-md-4 col-sm-12 justify-content-center">
+                <a class="navbar-brand brand" href="index.html">Ravi Joshi</a>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm12 justify-content-end">   
+                     <ul class="nav ">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="index.html">About</a>
                         </li>
-                        <li>
-                          <label for="email">Email</label>
-                          <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="portfolio.html">Portfolio</a>
                         </li>
-                        <li>
-                          <label for="message">Message</label>
-                          <textarea id="message" name="message" required="required"></textarea>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="contact.html">Contact</a>
                         </li>
                       </ul>
-                      <input type="submit">
-                    </form>
-               
-                </section>          
-                    
-                
-          
+            </div>
         </div>
-    
+    </div>               
+    </nav>
+    <div class="container-fluid">    
+      
+        <div class="contact-form">
+          <div class="container">
+           <form>
+           <div class="col-lg-8 col-md-8 col-sm-12">
+                 <h1>Get in Touch</h1> 
+          </div> 
+          <div class="row center" >
+           
+           <div class="col-lg-8 col-md-8 col-sm-12">
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control form-control-lg">
+                 
+                </textarea>
+              </div>
+              <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+           </div>
+          </div>
+         </form>
+        </div>
+       </div>
+      </div>
+
     <footer class="col-md-12 text-center">
         <div><h6>Copyright©</h6></div>
     </footer>

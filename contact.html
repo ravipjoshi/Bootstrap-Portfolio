@@ -32,25 +32,32 @@
         </div>
     </div>               
     </nav>
-    <div class="container-fluid">    
+    <div class="container" id="main-container">    
       
         <div class="contact-form">
           <div class="container">
            <form>
-           <div class="col-lg-8 col-md-8 col-sm-12">
-                 <h1>Get in Touch</h1> 
+           <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                 <h1>Contact</h1> 
           </div> 
+          <div>
+              <hr>
+          </div>
+          
           <div class="row center" >
            
-           <div class="col-lg-8 col-md-8 col-sm-12">
+           <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
               <div class="form-group">
-                <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                <label for="name">Name</label>
+                <input type="text" class="form-control form-control-lg" placeholder="Jhon Smith" name="name" required="required">
               </div>
               <div class="form-group">
-                <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+                <label for="email">Email</label>
+                <input type="email" class="form-control form-control-lg" placeholder="example@gmail.com" name="email" required="required">
               </div>
               <div class="form-group">
-                <textarea class="form-control form-control-lg">
+                <label for="message">Message</label>
+                <textarea class="form-control form-control-lg" required="required">
                  
                 </textarea>
               </div>

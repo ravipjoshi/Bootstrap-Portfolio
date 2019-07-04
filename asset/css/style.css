@@ -21,6 +21,7 @@ body{
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  background-color: #ffffff;
 }
 
 /* Navbar*/
@@ -48,14 +49,12 @@ body{
   padding: 1em;
   position: relative;
  }
- .about h1{
-  color:#F97300;
-  margin: 2em;
- }
+ 
  .about img{
   height: 100%;
      width: 100%;
-     border-radius: 50%
+     border-radius: 50%;
+     
  }
  .about span{
   display: block;
@@ -80,10 +79,13 @@ body{
   margin: 4em 0;
      position: relative; 
  }
- .portfolio h1{
-  color:#F97300;
-  margin: 2em; 
+ 
+ .img-fluid{
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
  }
+
  .portfolio img{
    height: 15rem;
    width: 100%;
@@ -96,15 +98,12 @@ body{
   position: relative;  
  }
  
- .contact-form h1{
-  padding:2em 1px;
-  color: #F97300; 
- }
+ 
  .contact-form .right{
   max-width: 600px;
  }
  .contact-form .right .btn-secondary{
-  background:  #F97300;
+  background:  #4aaaa5;
   color: #fff;
   border:0;
  }
@@ -128,6 +127,13 @@ h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
+}
+
+#main-container {
+  max-width: 960px;
+  margin-top:80px;
+ 
+  background-color: #ffffff;
 }
 
 
